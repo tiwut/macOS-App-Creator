@@ -10,6 +10,22 @@ Whether you prefer lightning-fast terminal prompts or native macOS graphical dia
 
 ---
 
+## Install with Homebrew
+```bash
+brew tap Nexus-Titan/tab https://github.com/Nexus-Titan/homebrew-tap.git
+brew update
+brew install tiwut-mac-app-creator
+```
+run with:
+```bash
+mac-app-creator
+
+# Samples:
+mac-app-creator -create -build -path /MyProject
+# or -> for gui, run:
+mac-app-creator -gui -create -build -path /MyProject
+```
+
 ## Features
 
 - **Automated CMake Builds:** Automatically generates build files and compiles your Release binaries.
